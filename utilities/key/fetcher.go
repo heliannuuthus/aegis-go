@@ -106,7 +106,11 @@ func (f *PublicKeyFetcher) doFetch(ctx context.Context, clientID string) ([][]by
 		slog.Warn("[PublicKeyFetcher] fetch failed", "id", clientID, "error", err)
 		return nil, fmt.Errorf("fetch pubkeys: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() {
+		if err := resp.Body.Close(); err != nil {
+			slog.Warn("[PublicKeyFetcher] close response body failed", "id", clientID, "error", err)
+		}
+	}()
 
 	body, err := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
 	if err != nil {
