@@ -16,7 +16,7 @@ import (
 	"github.com/go-json-experiment/json"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/heliannuuthus/aegis-go/utilities/client"
+	"github.com/heliantheon/aegis-go/utilities/client"
 )
 
 type cacheEntry struct {

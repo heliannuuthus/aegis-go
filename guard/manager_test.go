@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/heliannuuthus/aegis-go/utilities/key"
+	"github.com/heliantheon/aegis-go/utilities/key"
 )
 
 func TestNewServiceTokenManagerValidatesConfiguration(t *testing.T) {

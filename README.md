@@ -12,7 +12,7 @@ Go libraries for services and applications that integrate with Aegis. The reposi
 ## Install
 
 ```bash
-go get github.com/heliannuuthus/aegis-go/guard
+go get github.com/heliantheon/aegis-go/guard
 ```
 
 Choose the module path that matches the package you use. The modules are versioned independently by their directory prefix.

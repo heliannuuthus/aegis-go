@@ -10,7 +10,7 @@ import (
 
 	"aidanwoods.dev/go-paseto"
 
-	pasetokit "github.com/heliannuuthus/aegis-go/utilities/paseto"
+	pasetokit "github.com/heliantheon/aegis-go/utilities/paseto"
 )
 
 var (

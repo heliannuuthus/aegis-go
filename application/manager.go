@@ -24,11 +24,11 @@ import (
 
 	"github.com/go-json-experiment/json"
 
-	"github.com/heliannuuthus/aegis-go/utilities/client"
-	"github.com/heliannuuthus/aegis-go/utilities/issuer"
-	"github.com/heliannuuthus/aegis-go/utilities/key"
-	"github.com/heliannuuthus/aegis-go/utilities/syncx"
-	tokendef "github.com/heliannuuthus/aegis-go/utilities/token"
+	"github.com/heliantheon/aegis-go/utilities/client"
+	"github.com/heliantheon/aegis-go/utilities/issuer"
+	"github.com/heliantheon/aegis-go/utilities/key"
+	"github.com/heliantheon/aegis-go/utilities/syncx"
+	tokendef "github.com/heliantheon/aegis-go/utilities/token"
 )
 
 const maxResponseBody = 1 << 20

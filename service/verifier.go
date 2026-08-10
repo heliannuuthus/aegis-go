@@ -9,8 +9,8 @@ import (
 
 	"aidanwoods.dev/go-paseto"
 
-	"github.com/heliannuuthus/aegis-go/utilities/key"
-	pasetokit "github.com/heliannuuthus/aegis-go/utilities/paseto"
+	"github.com/heliantheon/aegis-go/utilities/key"
+	pasetokit "github.com/heliantheon/aegis-go/utilities/paseto"
 )
 
 // Verifier 验签 PASETO v4.public token。

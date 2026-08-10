@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	pasetokit "github.com/heliannuuthus/aegis-go/utilities/paseto"
+	pasetokit "github.com/heliantheon/aegis-go/utilities/paseto"
 )
 
 type derivedEntry struct {

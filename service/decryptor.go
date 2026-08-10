@@ -8,9 +8,9 @@ import (
 
 	"aidanwoods.dev/go-paseto"
 
-	"github.com/heliannuuthus/aegis-go/utilities/key"
-	pasetokit "github.com/heliannuuthus/aegis-go/utilities/paseto"
-	tokendef "github.com/heliannuuthus/aegis-go/utilities/token"
+	"github.com/heliantheon/aegis-go/utilities/key"
+	pasetokit "github.com/heliantheon/aegis-go/utilities/paseto"
+	tokendef "github.com/heliantheon/aegis-go/utilities/token"
 )
 
 var ErrDecryptFailed = pasetokit.ErrDecryptFailed

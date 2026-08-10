@@ -92,7 +92,7 @@ SDK 侧 `AnyOf`/`AllOf`/`Not` 通过 goroutine 并发 Enforce + context cancel �
 
 ## relation 包 API 设计
 
-`relation` 包（`github.com/heliannuuthus/aegis-go/utilities/relation`）是**纯数据层**，负责元组的构造和占位符解析。不依赖 context、token、web 或任何运行时概念。
+`relation` 包（`github.com/heliantheon/aegis-go/utilities/relation`）是**纯数据层**，负责元组的构造和占位符解析。不依赖 context、token、web 或任何运行时概念。
 
 ### Tuple — 最终产物
 
@@ -176,10 +176,10 @@ func (b *Builder) HasBinding() bool
 
 ## web/requirement 包 API 设计
 
-Requirement 相关的所有类型和函数定义在 `web/requirement` 子包中（`github.com/heliannuuthus/aegis-go/guard/requirement`），`web` 包通过别名引用：
+Requirement 相关的所有类型和函数定义在 `web/requirement` 子包中（`github.com/heliantheon/aegis-go/guard/requirement`），`web` 包通过别名引用：
 
 ```go
-import reqr "github.com/heliannuuthus/aegis-go/guard/requirement"
+import reqr "github.com/heliantheon/aegis-go/guard/requirement"
 ```
 
 ### Requirement 接口
@@ -292,7 +292,7 @@ relation.Expr(...)            GinGuard.Require()              Schema 展开
 ## 包结构
 
 ```
-github.com/heliannuuthus/aegis-go/
+github.com/heliantheon/aegis-go/
 ├── utils/
 │   └── relation/
 │       ├── tuple.go          # Tuple 结构体 + ParseTuple + ParseEntity
@@ -322,17 +322,17 @@ github.com/heliannuuthus/aegis-go/
 `web` 包通过别名引用 requirement 子包：
 
 ```go
-import reqr "github.com/heliannuuthus/aegis-go/guard/requirement"
+import reqr "github.com/heliantheon/aegis-go/guard/requirement"
 ```
 
 ## 使用示例
 
 ```go
 import (
-    "github.com/heliannuuthus/aegis-go/utilities/relation"
-    "github.com/heliannuuthus/aegis-go/guard"
-    reqr "github.com/heliannuuthus/aegis-go/guard/requirement"
-    "github.com/heliannuuthus/aegis-go/guard"
+    "github.com/heliantheon/aegis-go/utilities/relation"
+    "github.com/heliantheon/aegis-go/guard"
+    reqr "github.com/heliantheon/aegis-go/guard/requirement"
+    "github.com/heliantheon/aegis-go/guard"
 )
 
 // 初始化

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/heliannuuthus/aegis-go/utilities/key"
-	pasetokit "github.com/heliannuuthus/aegis-go/utilities/paseto"
+	"github.com/heliantheon/aegis-go/utilities/key"
+	pasetokit "github.com/heliantheon/aegis-go/utilities/paseto"
 )
 
 // extractor per-audience 的公共基底，持有公钥 Provider 和 audience，

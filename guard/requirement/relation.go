@@ -4,9 +4,9 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/heliannuuthus/aegis-go/guard"
-	"github.com/heliannuuthus/aegis-go/utilities/errors"
-	"github.com/heliannuuthus/aegis-go/utilities/relation"
+	"github.com/heliantheon/aegis-go/guard"
+	"github.com/heliantheon/aegis-go/utilities/errors"
+	"github.com/heliantheon/aegis-go/utilities/relation"
 )
 
 const (
