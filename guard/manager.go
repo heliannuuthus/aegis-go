@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/heliannuuthus/aegis-go/service"
-	"github.com/heliannuuthus/aegis-go/utilities/key"
+	"github.com/heliantheon/aegis-go/service"
+	"github.com/heliantheon/aegis-go/utilities/key"
 )
 
 const serviceSeedSize = 48

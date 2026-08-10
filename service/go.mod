@@ -1,11 +1,11 @@
-module github.com/heliannuuthus/aegis-go/service
+module github.com/heliantheon/aegis-go/service
 
 go 1.26
 
 require (
 	aidanwoods.dev/go-paseto v1.6.0
 	github.com/go-json-experiment/json v0.0.0-20260214004413-d219187c3433
-	github.com/heliannuuthus/aegis-go/utilities v0.0.2-0.20260810151700-2ab76612b78a
+	github.com/heliantheon/aegis-go/utilities v0.0.2-0.20260810151700-2ab76612b78a
 )
 
 require (
@@ -15,4 +15,4 @@ require (
 	golang.org/x/sys v0.40.0 // indirect
 )
 
-replace github.com/heliannuuthus/aegis-go/utilities => ../utilities
+replace github.com/heliantheon/aegis-go/utilities => ../utilities

@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/heliannuuthus/aegis-go/guard"
-	"github.com/heliannuuthus/aegis-go/utilities/errors"
+	"github.com/heliantheon/aegis-go/guard"
+	"github.com/heliantheon/aegis-go/utilities/errors"
 )
 
 type anyOfRequirement struct {

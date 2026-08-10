@@ -1,4 +1,4 @@
-module github.com/heliannuuthus/aegis-go/utilities
+module github.com/heliantheon/aegis-go/utilities
 
 go 1.26
 

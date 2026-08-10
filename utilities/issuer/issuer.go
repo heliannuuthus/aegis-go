@@ -9,9 +9,9 @@ import (
 
 	"aidanwoods.dev/go-paseto"
 
-	"github.com/heliannuuthus/aegis-go/utilities/key"
-	pasetokit "github.com/heliannuuthus/aegis-go/utilities/paseto"
-	tokendef "github.com/heliannuuthus/aegis-go/utilities/token"
+	"github.com/heliantheon/aegis-go/utilities/key"
+	pasetokit "github.com/heliantheon/aegis-go/utilities/paseto"
+	tokendef "github.com/heliantheon/aegis-go/utilities/token"
 )
 
 // Issuer signs PASETO v4.public tokens with kid in the footer.

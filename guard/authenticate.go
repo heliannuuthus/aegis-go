@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-json-experiment/json"
 
-	"github.com/heliannuuthus/aegis-go/service"
-	"github.com/heliannuuthus/aegis-go/utilities/client"
-	tokendef "github.com/heliannuuthus/aegis-go/utilities/token"
+	"github.com/heliantheon/aegis-go/service"
+	"github.com/heliantheon/aegis-go/utilities/client"
+	tokendef "github.com/heliantheon/aegis-go/utilities/token"
 )
 
 // Authenticate 从 http.Request 提取并验证 token，返回 TokenContext。

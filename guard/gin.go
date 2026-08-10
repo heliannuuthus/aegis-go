@@ -8,8 +8,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/heliannuuthus/aegis-go/utilities/errors"
-	"github.com/heliannuuthus/aegis-go/utilities/relation"
+	"github.com/heliantheon/aegis-go/utilities/errors"
+	"github.com/heliantheon/aegis-go/utilities/relation"
 )
 
 // Gin 框架适配器。
