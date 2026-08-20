@@ -1,36 +1,31 @@
 <p align="center">
-  <img src="./assets/brand/hero-ice.png" width="256" alt="Aegis emblem suspended in a clear ice block" />
+  <img src="./assets/brand/hero-ice.png" width="256" alt="Aegis Go logo" />
 </p>
 
 <h1 align="center">Aegis Go</h1>
 
-<p align="center">
-  <strong>Composable Go libraries for services and applications protected by Aegis.</strong><br />
-  面向 Aegis 服务与应用的可组合 Go 认证库。
-</p>
+Aegis Go 是一组跟 Aegis 打交道的 Go 库。没有单一入口，仓库按目录拆成四个各自独立发版的 module——你只需要依赖你用得到的那一层，不必把整套东西都拉进来。
 
-## Overview / 项目简介
+Aegis Go is a set of Go libraries for working with Aegis, split into four independently versioned modules so you only depend on the layer you actually use.
 
-Aegis Go provides token, key, guard, service, and application abstractions. Four independently versioned modules let consumers depend only on the layer they need.
-
-Aegis Go 提供令牌、密钥、Guard、服务和应用侧抽象，并通过四个独立 module 控制依赖边界。
-
-| Module | Purpose |
+| Module | 用途 |
 | --- | --- |
-| `application` | Client-side application and token management |
-| `guard` | Authentication middleware and authorization requirements |
-| `service` | Token extraction, verification, and decryption |
-| `utilities` | Keys, PASETO/PASERK, relations, issuers, and token types |
+| `application` | 应用侧注册与令牌管理 |
+| `guard` | 认证中间件与鉴权 requirement 组合 |
+| `service` | 令牌的提取、校验、解密 |
+| `utilities` | 密钥、PASETO/PASERK、issuer、relation、token 类型等基础能力 |
 
-## Install
+Each module lives in its own directory and is versioned independently; pick the path for the package you use.
+
+## 安装
 
 ```bash
 go get github.com/heliantheon/aegis-go/guard
 ```
 
-Choose the module path matching the package you use. Modules are versioned independently by directory prefix.
+替换成你实际用到的那层路径即可。
 
-## Development
+## 开发
 
 ```bash
 make test
@@ -38,4 +33,4 @@ make lint
 make tidy
 ```
 
-The ReBAC client and guard model is described in [`docs/relation-design.md`](docs/relation-design.md).
+ReBAC 客户端与 guard 模型的设计写在 [`docs/relation-design.md`](docs/relation-design.md)。
